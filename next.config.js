@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images:{
+        domains:["img.joomcdn.net"]
+    },
+  experimental:{
+    appDir:true
+  }}
 
 module.exports = nextConfig
